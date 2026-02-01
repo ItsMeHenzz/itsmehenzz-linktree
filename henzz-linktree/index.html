@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>ItsMeHenzz | Linktree</title>
+
+<!-- Font & Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: white;
+    min-height: 100vh;
+}
+.container {
+    max-width: 420px;
+    margin: auto;
+    padding: 40px 20px;
+}
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 25px rgba(56,189,248,0.5);
+}
+.profile h2 {
+    margin: 15px 0 5px;
+    font-weight: 600;
+}
+.profile p {
+    font-size: 14px;
+    color: #cbd5f5;
+}
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    padding: 16px 20px;
+    margin: 14px 0;
+    border-radius: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.link i {
+    font-size: 22px;
+}
+.link:hover {
+    transform: translateY(-4px) scale(1.02);
+    background: #38bdf8;
+    color: #020617;
+}
+.fa-tiktok { color: #69C9D0; }
+.fa-instagram { color: #E1306C; }
+.fa-heart { color: #ff4d4d; }
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- PROFIL -->
+    <div class="profile">
+        <img src="assets/img/henzz.jpeg" alt="profile">
+        <h2>itsmehenzz</h2>
+        <p>bio kamu di sini ✨</p>
+    </div>
+
+    <!-- LINKS -->
+    <a class="link" href="https://tiktok.com/@username" target="_blank">
+        <i class="fa-brands fa-tiktok"></i>
+        tiktok
+    </a>
+
+    <a class="link" href="https://instagram.com/username" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+        instagram
+    </a>
+
+    <a class="link" href="https://saweria.co/username" target="_blank">
+        <i class="fa-solid fa-heart"></i>
+        saweria
+    </a>
+
+    <div class="footer">
+        © 2026 itsmehenzz
+    </div>
+
+</div>
+
+</body>
+</html>
